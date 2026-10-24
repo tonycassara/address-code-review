@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tonycassara",
+  "description": "Plugins by Tony Cassara",
+  "owner": { "name": "Tony Cassara" },
+  "plugins": [
+    {
+      "name": "address-code-review",
+      "description": "Autonomously address code review comments on the current PR: fetch unresolved threads, decide Fix / Push back / Defer / Clarify per comment, implement fixes, reply on every thread, push, and re-request review.",
+      "author": { "name": "Tony Cassara" },
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
